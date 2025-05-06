@@ -1,0 +1,74 @@
+.actor-details {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.actor-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;        
+  justify-content: center; 
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+.actor-info img {
+  width: 250px;
+  border-radius: 12px;
+}
+
+.personal-info-box {
+  flex: 1;
+  background: #2e2e2e;
+  color: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.bio-section {
+  margin-bottom: 3rem;
+}
+
+.known-for h2 {
+  margin-bottom: 1rem;
+}
+
+.known-shows {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.show-card {
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: 141414;
+}
+
+.show-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.no-image {
+  width: 100%;
+  height: 220px;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.button {
+  background-color: #c200d3;
+}
